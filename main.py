@@ -23,7 +23,7 @@ headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleW
 # Create function with the name of brute, it will need to arguments, username and password
 
 def brute(username, password):
-    # Creating a dictionary called "data" to store the data thats going to be sent to the website
+    # Creating a dictionary called "data" to store the data thats going to be sent to the website, if the website requires more data just modify the values 
 
     data = {'username' : username, 'password' : password}
     
