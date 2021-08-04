@@ -1,8 +1,5 @@
 # This bruteforce script is a template and it was made for educational purposes only, please don't use this against other people without their actual consent 
 
-
-# We need requests, bs4 and sys modules for this to work
-
 import requests
 from bs4 import BeautifulSoup
 import sys
