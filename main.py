@@ -38,7 +38,7 @@ def main():
         pass_index = 0
         stop = 0
         
-        # stop is a variable that i made so it stops when there are no more usernames, otherwice it would continue and give an IndexError        
+        # stop is a variable that i made so it stops when there are no more usernames, otherwise it would continue and give an IndexError        
         while stop != len(users):        
             brute(users[user_index], passwords[pass_index])        
             print(f'Tried with >> {users[user_index]} : {passwords[pass_index]} \n')        
